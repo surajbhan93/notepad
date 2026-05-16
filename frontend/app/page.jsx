@@ -295,7 +295,8 @@ export default function Home() {
               Sign In
             </Link>
             <a
-              href="https://notepad-api-pugt.onrender.com/docs/
+              href="https://notepad-api-pugt.onrender.com/docs/"
+              target="_blank"
               className="flex items-center gap-2 px-7 py-3.5 bg-white/5 hover:bg-white/9 text-white/70 hover:text-white border border-white/12 hover:border-white/20 font-semibold rounded-2xl text-base transition-all duration-200 hover:-translate-y-0.5 backdrop-blur-sm"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
