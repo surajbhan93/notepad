@@ -295,7 +295,7 @@ export default function Home() {
               Sign In
             </Link>
             <a
-              href="http://localhost:5000/docs/"
+              href="https://notepad-api-pugt.onrender.com/docs/
               className="flex items-center gap-2 px-7 py-3.5 bg-white/5 hover:bg-white/9 text-white/70 hover:text-white border border-white/12 hover:border-white/20 font-semibold rounded-2xl text-base transition-all duration-200 hover:-translate-y-0.5 backdrop-blur-sm"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -304,7 +304,7 @@ export default function Home() {
               View API Docs
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/surajbhan93/notepad"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-7 py-3.5 bg-white/5 hover:bg-white/9 text-white/70 hover:text-white border border-white/12 hover:border-white/20 font-semibold rounded-2xl text-base transition-all duration-200 hover:-translate-y-0.5 backdrop-blur-sm"
