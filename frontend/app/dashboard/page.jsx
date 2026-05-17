@@ -82,7 +82,7 @@ export default function Dashboard() {
   };
 
   const clearSearch = () => { setSearch(""); setSearchResults(null); };
-
+console.log("API URL:", process.env.NEXT_PUBLIC_API_URL);
   const handleSave = async (form) => {
     try {
       if (editNote?._id) {
@@ -99,7 +99,7 @@ export default function Dashboard() {
       toast.error(err.response?.data?.message || "Failed to save note");
     }
   };
-
+console.log("API URL:", process.env.NEXT_PUBLIC_API_URL);
   const handleDelete = async (id) => {
     try {
       await notesAPI.delete(id);
