@@ -48,7 +48,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="http://localhost:5000/docs"
+            href="https://notepad-api-pugt.onrender.com/docs"
             target="_blank"
             rel="noreferrer"
             className="hover:text-amber-400 transition-colors duration-200 flex items-center gap-1"
@@ -154,7 +154,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="http://localhost:5000/docs"
+            href="https://notepad-api-pugt.onrender.com/docs"
             target="_blank"
             rel="noreferrer"
             onClick={() => setMenuOpen(false)}
